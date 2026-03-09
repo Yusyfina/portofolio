@@ -2,7 +2,7 @@ import { useState, Suspense, lazy } from "react";
 import { Routes, Route } from "react-router-dom";
 import Splash from "./pages/splashscreen";
 import Navbar from "./components/navbar";
-import Background from "./components/Background";
+import Background from "./components/background";
 
 const Home = lazy(() => import("./pages/home"));
 const About = lazy(() => import("./pages/about"));
