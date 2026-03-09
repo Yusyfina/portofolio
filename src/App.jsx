@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Splash from "./pages/splashscreen";
 import Navbar from "./components/navbar";
 import Background from "./components/background";
+import Footer from "./components/footer";
 
 const Home = lazy(() => import("./pages/home"));
 const About = lazy(() => import("./pages/about"));
@@ -36,6 +37,8 @@ export default function App() {
                 <About />
                 <Portofolio />
                 <Contact />
+
+                <Footer />
               </>
             }
           />

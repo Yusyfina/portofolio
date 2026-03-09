@@ -12,7 +12,7 @@ const steps = [
   "Ready"
 ]
 
-const DOMAIN = "www.yusyfinayuniarti.my.id"
+const DOMAIN = "www.yusyfinayuniarti.vercel.app"
 
 export default function SplashScreen({ onLoadingComplete }) {
   const [progress, setProgress] = useState(0)
