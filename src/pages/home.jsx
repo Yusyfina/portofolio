@@ -22,7 +22,7 @@ export default function HomeHero() {
             <div className="relative h-36 w-36 overflow-hidden rounded-full border-[3px] border-white/20 shadow-[0_0_60px_rgba(56,189,248,.4)]">
 
               <img
-                src="/Akunobg.png"
+                src="/akuu.png"
                 alt="profile"
                 className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:rotate-3 group-hover:scale-110"
               />

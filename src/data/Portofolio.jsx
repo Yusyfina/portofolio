@@ -57,7 +57,7 @@ export const projects = [
     longDescription:
       "Website portofolio ini dikembangkan menggunakan React dan Vite, Tailwind CSS, dan Framer Motion . Selain itu, integrasi Firebase digunakan untuk menyimpan data live comment, sementara EmailJS memungkinkan pengunjung mengirim pesan langsung melalui halaman email tanpa perlu meninggalkan website ",
 
-    technologies: ["React", "Vite", "TailwindCSS", "Firebase", "EmailJS", "Framer Motion"],
+    technologies: ["Javascript","React", "Vite", "TailwindCSS", "Firebase", "EmailJS", "Framer Motion"],
 
     features: [
       "Halaman profil",
@@ -155,6 +155,7 @@ export const certificates = [
   { id: 9, image: "/certificates/r.png" },
   { id: 10, image: "/certificates/datascience.png" },
   { id: 11, image: "/certificates/machinelearning.png" },
+  {id: 12, image: "/certificates/relawangd.jpeg" },
 ];
 
 export const techStack = [
@@ -186,10 +187,10 @@ export const techStack = [
     name: "Vite",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg"
   },
-  {
-    name: "Go",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg"
-  },
+  //{
+    //name: "Go",
+    //icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg"
+  //},
   {
     name: "Flutter",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg"

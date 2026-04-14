@@ -10,6 +10,7 @@ const About = lazy(() => import("./pages/about"));
 const Portofolio = lazy(() => import("./pages/portofolio"));
 const Contact = lazy(() => import("./pages/contact"));
 const ProjectDetail = lazy(() => import("./pages/projectDetail"));
+const Experience = lazy(() => import("./pages/Experience"));
 
 export default function App() {
 
@@ -36,6 +37,7 @@ export default function App() {
                 <Home />
                 <About />
                 <Portofolio />
+                <Experience />
                 <Contact />
 
                 <Footer />

@@ -36,7 +36,7 @@ const ProfileImage = React.memo(() => (
         <img
           src="/Photo.png"
           alt="Profile"
-          className="h-full w-full -translate-y-14 translate-x-6 scale-[1.5] object-cover object-center transition-transform duration-700 ease-out group-hover:rotate-3 group-hover:scale-[1.65]"
+          className="h-full w-full -translate-y-9 scale-[1.3] object-cover object-center transition-transform duration-700 ease-out group-hover:rotate-3 group-hover:scale-[1.5]"
         />
 
       </div>
@@ -83,7 +83,7 @@ const AboutPage = () => {
     return {
       totalProjects: projects.length,
       totalCertificates: certificates.length,
-      YearExperience: 2,
+      YearExperience: 1,
     };
   }, []);
 
