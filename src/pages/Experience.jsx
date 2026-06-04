@@ -5,7 +5,7 @@ const workExp = [
   {
     role: "Fullstack Web Developer",
     company: "PT.Bumiagara Mitra Konsultan",
-    date: "Apr 2026 - Present",
+    date: "Apr 2026",
     desc: "Developed a company profile website",
     points: [
       "Design figma prototype",
